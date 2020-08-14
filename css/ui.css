@@ -70,14 +70,14 @@ footer > a.instar:hover{background:url(../images/social_b_instar_hover.png) no-r
 #container .content:before{width:1px; height:100%; left:0; top:0; z-index:4;}
 #container .content:after{left:30px; top:180px; font-size:25px; font-weight:700; color:#ed3140;}
 #container #menu1:after{content:"공통소개";} 
-#container #menu2:after{content:"자기소개";} 
+/*#container #menu2:after{content:"자기소개";} */
 #container #menu3:after{content:"느낀점";} 
-#container #menu4:after{content:"Mirims";}
+/*#container #menu4:after{content:"Mirims";} */
 #container .content .conbox:before{content:"";display:block; position:absolute;}                                                     /*대문 이미지 수정*/
 #container #menu1 .conbox:before{background:url(../images/main_1.png) no-repeat; width:100%; height:100%; background-size:100%;} 
-#container #menu2 .conbox:before{background:url(../images/main_2.png) no-repeat; width:100%; height:100%;  background-size:100%;} 
-#container #menu3 .conbox:before{background:url(../images/main_3.png) no-repeat; width:100%; height:100%;  background-size:100%;} 
-#container #menu4 .conbox:before{background:url(../images/main_4.png) no-repeat; width:100%; height:100%;  background-size:100%;}
+#container #menu2 .conbox:before{background:url(../images/bg1.png) no-repeat; width:100%; height:100%;  background-size:100%;} 
+#container #menu3 .conbox:before{background:url(../images/main_2.png) no-repeat; width:100%; height:100%;  background-size:100%;} 
+#container #menu4 .conbox:before{background:url(../images/bg1.png) no-repeat; width:100%; height:100%;  background-size:100%;}
 /*영역 전후 구분하기*/
 #container .content h2{opacity:0;}
 #container .content.this h2{height:auto; padding:30px 0 20px 50px; color:#000; position:relative; background:#fff; font-size:28px; font-weight:400; opacity:1; transition:all .6s; transition-delay:1.2s;}
